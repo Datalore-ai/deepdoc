@@ -1,6 +1,6 @@
-<div align="center">
+<!-- <div align="center">
   <img src="./assets/deepdoc.png" alt="Datlore.ai" />
-</div>
+</div> -->
 <p align="center">
   <a href="https://github.com/Datalore-ai/deepdoc/stargazers"><img src="https://img.shields.io/github/stars/Datalore-ai/deepdoc?style=flat-square" alt="GitHub Stars"></a>
   <a href="https://github.com/Datalore-ai/deepdoc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Datalore-ai/deepdoc?style=flat-square&color=purple" alt="License"></a>
