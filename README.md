@@ -1,14 +1,3 @@
-<!-- <div align="center">
-  <img src="./assets/deepdoc.png" alt="Datlore.ai" />
-</div> -->
-<p align="center">
-  <a href="https://github.com/Datalore-ai/deepdoc/stargazers"><img src="https://img.shields.io/github/stars/Datalore-ai/deepdoc?style=flat-square" alt="GitHub Stars"></a>
-  <a href="https://github.com/Datalore-ai/deepdoc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Datalore-ai/deepdoc?style=flat-square&color=purple" alt="License"></a>
-  <a href="https://github.com/Datalore-ai/deepdoc/commits/main"><img src="https://img.shields.io/github/last-commit/Datalore-ai/deepdoc?style=flat-square&color=blue" alt="Last Commit"></a>
-  <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square" alt="Python Version">
-  <a href="https://github.com/Datalore-ai/deepdoc/graphs/contributors"><img src="https://img.shields.io/github/contributors/Datalore-ai/deepdoc?style=flat-square&color=yellow" alt="Contributors"></a>
-</p>
-
 <div align="center">
   <img src="./assets/demo.gif" alt="deepdoc Demo" />
 </div>
@@ -58,7 +47,7 @@ You can download it from the official [uv GitHub repository](https://github.com/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Datalore-ai/deepdoc.git
+git clone https://github.com/Thesius-ai/deepdoc.git
 cd deepdoc
 ```
 
