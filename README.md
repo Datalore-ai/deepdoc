@@ -4,7 +4,7 @@
 
 ## Overview
 
-DeepDoc is a tool that performs deep research on your local resources instead of the internet. It uses a research-style workflow to explore your documents, organize the findings, and generate a clear markdown report. This way, you can quickly uncover insights from your own files without manually digging through them.
+Oqura's deepdoc is a tool that performs deep research on your local resources instead of the internet. It uses a research-style workflow to explore your documents, organize the findings, and generate a clear markdown report. This way, you can quickly uncover insights from your own files without manually digging through them.
 
 
 ## How It Works  
@@ -47,7 +47,7 @@ You can download it from the official [uv GitHub repository](https://github.com/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Thesius-ai/deepdoc.git
+git clone https://github.com/Oqura-ai/deepdoc.git
 cd deepdoc
 ```
 
