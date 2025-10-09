@@ -1,6 +1,16 @@
 <div align="center">
   <img src="./assets/demo.gif" alt="deepdoc Demo" />
 </div>
+<p align="center">
+<a href="https://github.com/Oqura-ai/deepdoc/stargazers"><img src="https://img.shields.io/github/stars/Oqura-ai/deepdoc?style=flat-square" alt="GitHub Stars"></a>
+<a href="https://github.com/Oqura-ai/deepdoc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Oqura-ai/deepdoc?style=flat-square&color=purple" alt="License"></a>
+<a href="https://github.com/Oqura-ai/deepdoc/commits/main"><img src="https://img.shields.io/github/last-commit/Oqura-ai/deepdoc?style=flat-square&color=blue" alt="Last Commit"></a>
+<img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square" alt="Python Version">
+<a href="https://github.com/Oqura-ai/deepdoc/graphs/contributors"><img src="https://img.shields.io/github/contributors/Oqura-ai/deepdoc?style=flat-square&color=yellow" alt="Contributors"></a>
+</p>
+
+
+
 
 ## Overview
 
