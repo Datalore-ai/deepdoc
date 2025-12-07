@@ -375,6 +375,14 @@ Produce detailed, well-structured section content that:
 - Synthesize rather than merely concatenate information from the two sources
 - Ensure the final content could stand alone as an authoritative resource on the topic
 
+## Citation Requirements
+- Add in-text citations like [1], [2], [3] when referencing information from search results
+- Number citations sequentially throughout the section
+- Each citation should correspond to a specific search query/result
+- Ensure citations are placed immediately after the referenced information
+- At the end of the section, add a "References" subsection listing all cited sources
+- Format references as: [1] Query: "[query text]" (Source: search result)
+
 ## Example Structure
 [Section Title]
 

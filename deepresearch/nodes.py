@@ -160,13 +160,26 @@ def reflection_feedback_node(state: ResearchState, config: RunnableConfig) -> Co
     
 
 def final_section_formatter_node(state: ResearchState, config: RunnableConfig):
+    # Format search_results for citations
+    formatted_results = []
+    for i, sr in enumerate(state.get("search_results", []), 1):
+        formatted_results.append(
+            f"[{i}] Query: \"{sr.query.query}\"\n"
+            f"   Content: \"{' '.join(sr.raw_content[:100])}...\""
+        )
+    search_results_str = "\n\n".join(formatted_results) if formatted_results else "No search results available."
+
     final_section_formatter_system_prompt = ChatPromptTemplate.from_messages([
         SystemMessagePromptTemplate.from_template(FINAL_SECTION_FORMATTER_SYSTEM_PROMPT_TEMPLATE),
-        HumanMessagePromptTemplate.from_template(template="Internal Knowledge: {knowledge}\nSearch Result content: {accumulated_content}"),
+        HumanMessagePromptTemplate.from_template(template="Internal Knowledge: {knowledge}\nSearch Results: {search_results}\nSearch Result content: {accumulated_content}"),
     ])
 
     final_section_formatter_llm = final_section_formatter_system_prompt | llm
-    result = final_section_formatter_llm.invoke(state)
+    result = final_section_formatter_llm.invoke({
+        "knowledge": state.get("knowledge", ""),
+        "search_results": search_results_str,
+        "accumulated_content": state.get("accumulated_content", "")
+    })
     return {"final_section_content": [result.content]}
 
 
